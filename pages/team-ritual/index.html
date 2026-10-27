@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>What I Learned When I Swapped Our January Kickoff Slides for 12 Dolls With No Eyes</title><meta name="description" content="Every team sets goals in January. Mine used to forget them by Valentine’s Day. Here’s the 20-minute Japanese ritual we use now, and what our shelf looked like by December."><meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap">
+<style>/* Advertorial: one reading column, quiet publication masthead, brand palette used sparingly. */
+:root{--paper:#FBF8F2;--card:#FFFFFF;--ink:#1d1a18;--ink-2:#45403b;--muted:#7b7068;--rule:#E7DED0;--red:#960F2D;--red-dk:#760B23;--gold:#C3964B;--gold-lt:#F1E6CF;--green:#2E6B47;
+--display:"Source Serif 4","Iowan Old Style",Georgia,serif;--sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;--col:42rem}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 1.0625rem/1.66 var(--sans);-webkit-font-smoothing:antialiased}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--red)}
+.adbar{text-align:center;padding:6px 16px;background:#EFE8DC;color:var(--muted);font:600 .6875rem/1.4 var(--sans);letter-spacing:.12em;text-transform:uppercase}
+.mast{display:flex;align-items:center;justify-content:space-between;gap:12px;max-width:calc(var(--col) + 32px);margin:0 auto;padding:14px max(16px,env(safe-area-inset-right,0px)) 12px max(16px,env(safe-area-inset-left,0px));border-bottom:1px solid var(--rule)}
+.pub{font:700 1.15rem/1 var(--display);letter-spacing:-.01em}
+.pub small{display:block;margin-top:3px;font:500 .68rem/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.mast .cat{font:600 .72rem/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--red)}
+.article{max-width:calc(var(--col) + 32px);margin:0 auto;padding:6px max(16px,env(safe-area-inset-right,0px)) 30px max(16px,env(safe-area-inset-left,0px))}
+.kicker{margin:22px 0 8px;color:var(--red);font:700 .74rem/1.3 var(--sans);letter-spacing:.14em;text-transform:uppercase}
+h1{margin:0 0 12px;font:700 clamp(1.85rem,6.6vw,2.75rem)/1.1 var(--display);letter-spacing:-.015em;text-wrap:balance}
+.dek{margin:0 0 16px;font:400 clamp(1.08rem,3.4vw,1.25rem)/1.45 var(--display);color:var(--ink-2)}
+.byline{display:flex;align-items:center;gap:10px;margin:0 0 6px;font-size:.84rem;color:var(--muted)}
+.byline img{width:40px;height:40px;border-radius:50%;object-fit:cover}
+.byline b{color:var(--ink);font-weight:650}
+.storynote{margin:6px 0 20px;padding:8px 11px;border-left:3px solid var(--gold);background:var(--card);font-size:.78rem;line-height:1.45;color:var(--muted)}
+h2{margin:36px 0 10px;font:700 clamp(1.4rem,4.6vw,1.75rem)/1.2 var(--display);letter-spacing:-.01em;text-wrap:balance}
+h2 .n{color:var(--red)}
+h3{margin:22px 0 6px;font:700 1.15rem/1.25 var(--display)}
+p{margin:0 0 .95em}
+strong{font-weight:680}
+.big{font:600 1.25rem/1.4 var(--display);color:var(--ink)}
+figure{margin:20px 0}
+figure img{width:100%;border-radius:4px}
+figcaption{margin-top:7px;color:var(--muted);font-size:.8rem;line-height:1.45}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.pair img{aspect-ratio:1;object-fit:cover}
+.pull{margin:26px 0;padding:0 0 0 14px;border-left:3px solid var(--red);font:600 1.3rem/1.38 var(--display);color:var(--ink)}
+.ticks{list-style:none;margin:14px 0 18px;padding:0}
+.ticks li{position:relative;margin:0 0 9px;padding-left:30px}
+.ticks li::before{position:absolute;left:0;top:1px;display:grid;place-items:center;width:20px;height:20px;border-radius:50%;font:700 .72rem/1 var(--sans);color:#fff}
+.ticks.yes li::before{content:"✓";background:var(--green)}
+.ticks.no li::before{content:"✕";background:#B23A3A}
+.box{margin:24px 0;padding:16px 18px;background:var(--card);border:1px solid var(--rule);border-radius:6px}
+.box h3{margin-top:0}
+.foryou{display:grid;gap:12px;margin:22px 0}
+@media(min-width:640px){.foryou{grid-template-columns:1fr 1fr}}
+.foryou .box{margin:0}
+.timeline{list-style:none;margin:16px 0;padding:0;border-left:2px solid var(--gold-lt)}
+.timeline li{position:relative;margin:0 0 14px;padding-left:18px}
+.timeline li::before{content:"";position:absolute;left:-7px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--gold)}
+.timeline b{display:block;font:700 .74rem/1.3 var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--red)}
+.letter{margin:16px 0;padding:16px 16px 13px;background:var(--card);border:1px solid var(--rule);border-radius:6px}
+.letter blockquote{margin:0}
+.letter p{margin:0 0 10px;font:500 1.08rem/1.48 var(--display)}
+.letter figcaption{margin:0;display:flex;gap:9px;align-items:center;font-size:.78rem;color:var(--muted)}
+.letter .ini{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--gold-lt);color:var(--ink-2);font:700 .7rem/1 var(--sans)}
+.bundle{display:grid;gap:10px;margin:18px 0 8px}
+.tier{position:relative;display:grid;grid-template-columns:64px minmax(0,1fr) auto;gap:12px;align-items:center;padding:12px 14px;background:var(--card);border:1px solid var(--rule);border-radius:8px;text-decoration:none;color:inherit}
+.tier img{width:64px;height:64px;border-radius:5px;object-fit:cover}
+.tier .t{font:700 1rem/1.25 var(--sans)}
+.tier .s{font-size:.8rem;line-height:1.35;color:var(--green);font-weight:600}
+.tier .pr{text-align:right;white-space:nowrap}
+.tier .pr del{display:block;font-size:.82rem;color:var(--muted)}
+.tier .pr b{font:700 1.15rem/1.1 var(--sans);color:var(--ink)}
+.tier.pop{border:2px solid var(--red);padding-top:22px}
+.tier .flag{position:absolute;top:-1px;left:-1px;right:-1px;padding:3px 0;background:var(--red);color:#fff;border-radius:7px 7px 0 0;text-align:center;font:700 .62rem/1.3 var(--sans);letter-spacing:.12em;text-transform:uppercase}
+.chips{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:16px 0 6px}
+.chip{padding:12px 6px;text-align:center;background:var(--card);border:1px solid var(--rule);border-radius:6px}
+.chip .q{font:700 1.2rem/1 var(--display);color:var(--red)}
+.chip .p{margin-top:4px;font-weight:700}
+.chip .e{font-size:.74rem;color:var(--muted);min-height:1.1em}
+.note{margin:6px 0 16px;color:var(--muted);font-size:.8rem;text-align:center}
+.cta{margin:24px 0;text-align:center}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;width:100%;max-width:420px;min-height:54px;padding:13px 22px;background:var(--red);color:#fff;border-radius:6px;font:700 1.02rem/1.2 var(--sans);text-decoration:none;box-shadow:0 6px 16px -8px rgba(150,15,45,.55)}
+.btn:hover{background:var(--red-dk)}
+.cta .trust{margin:9px 0 0;font-size:.76rem;color:var(--muted)}
+.faq details{border-bottom:1px solid var(--rule);padding:12px 0}
+.faq summary{cursor:pointer;font-weight:650;list-style:none;display:flex;justify-content:space-between;gap:12px}
+.faq summary::after{content:"+";color:var(--red);font-weight:700}
+.faq details[open] summary::after{content:"−"}
+.faq details p{margin:8px 0 0;color:var(--ink-2)}
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:20;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px max(16px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));background:rgba(251,248,242,.97);border-top:1px solid var(--rule);font-size:.82rem;line-height:1.3;color:var(--ink-2)}
+.sticky .btn{width:auto;min-height:44px;padding:10px 16px;font-size:.92rem;white-space:nowrap;box-shadow:none}
+@media(min-width:900px){.sticky{display:none}}
+body{padding-bottom:calc(76px + env(safe-area-inset-bottom,0px))}
+@media(min-width:900px){body{padding-bottom:0}}
+.foot{max-width:calc(var(--col) + 32px);margin:0 auto;padding:18px max(16px,env(safe-area-inset-right,0px)) 30px max(16px,env(safe-area-inset-left,0px));border-top:1px solid var(--rule);color:var(--muted);font-size:.74rem;line-height:1.55}
+.foot a{color:var(--ink-2)}
+</style></head>
+<body>
+<div class="adbar">Advertisement · Paid content from Daruma Ritual</div>
+<header class="mast"><span class="pub">The Ritual Journal<small>Stories about goals &amp; gifts</small></span><span class="cat">Team rituals</span></header>
+<main class="article">
+<p class="kicker">Team kickoff</p>
+<h1>What I Learned When I Swapped Our January Kickoff Slides for 12 Dolls With No Eyes</h1>
+<p class="dek">Every team sets goals in January. Mine used to forget them by Valentine’s Day. Here’s the 20-minute Japanese ritual we use now, and what our shelf looked like by December.</p>
+<div class="byline"><img src="img/byline.jpg" alt="" width="40" height="40"><span>By <b>Kevin Park</b> · 6 min read</span></div>
+<p class="storynote">A story written by Daruma Ritual to show how the ritual is used. The customer messages quoted on this page are real.</p>
+
+
+<figure class="full"><img src="img/01-kickoff.jpg" alt="A team lead laughs with his team at a January kickoff, each holding a Daruma" width="2000" height="1333"><figcaption>Our January kickoff. Nobody looked at a slide.</figcaption></figure>
+
+<p class="big">I lead a team of 12. For six years, I ran the same January kickoff everyone runs.</p>
+<p>A deck. Last year’s numbers. A slide called “Goals for the year”. Everyone nodding. Coffee and pastries.</p>
+<p>By the middle of February, nobody on my team could tell you what their own goal was. I couldn’t always tell you mine.</p>
+
+<h2>The problem wasn’t the goals</h2>
+<p>The goals were fine. They were specific, they were realistic, they were in a shared document.</p>
+<p>And that was exactly the problem. A goal in a shared document lives in a tab nobody opens. It has no weight. It doesn’t take up any space on your desk or in your day.</p>
+<p>Here’s the comparison that changed how I think about it. A gym membership you never use is still a card in your wallet: easy to forget. A pair of running shoes by the front door is in your way every morning: hard to ignore. Same intention, completely different pull.</p>
+<p class="pull">A goal needs to be somewhere you trip over it.</p>
+
+<h2>What I found in a 400-year-old tradition</h2>
+<p>A friend who runs a small gym told me she gives her members a Daruma when they commit to something hard. The finished ones go on a shelf in the gym. I had never heard of it.</p>
+<p>A Daruma is a small, round Japanese doll that arrives with both eyes blank. It’s modelled on Bodhidharma, the monk who, according to legend, sat facing a wall for nine years. The base is weighted, so it rocks back up when you push it over: <em>fall seven times, rise eight</em>.</p>
+<p>The ritual is simple. You choose one goal and paint the first eye. The doll sits where you’ll see it. When the goal is done, you paint the second eye. In Japan, election candidates do this on camera on election night.</p>
+<p>It’s a goal that takes up space. Exactly what our shared document wasn’t.</p>
+<div class="cta"><a class="btn" href="https://darumaritual.com/?utm_source=advertorial&utm_campaign=team-ritual">See the Daruma Ritual sets <span aria-hidden="true">→</span></a><p class="trust">Official Daruma Ritual store · Free tracked shipping worldwide · 30-day returns</p></div>
+
+<h2>How we ran the kickoff</h2>
+<p>I ordered three sets for the team. Each set has five ceramic Daruma (red, white, black, yellow and blue) in a black magnetic box with the legend card, so three sets covered all twelve of us with a few to spare.</p>
+<figure class="full"><img src="img/02-boxes.jpg" alt="Black Daruma Ritual gift boxes opened on a meeting table" width="2000" height="1333" loading="lazy"><figcaption>Opening the boxes was the first time all morning people stopped checking their phones.</figcaption></figure>
+<div class="box"><h3>Our 20-minute version</h3><ol>
+<li><strong>5 minutes:</strong> I read the legend card out loud. It takes about a minute; then people ask questions.</li>
+<li><strong>5 minutes:</strong> everyone picks a colour. Each colour has a meaning, and people enjoy choosing one that fits.</li>
+<li><strong>5 minutes:</strong> everyone writes one goal for the year on a card. Work or personal, their choice. Nobody has to share it.</li>
+<li><strong>5 minutes:</strong> we all paint the first eye at the same time. The doll’s own left eye, which is on your right as it faces you. Bring a few black markers; there isn’t one in the box.</li>
+</ol></div>
+<figure class="full"><img src="img/03-card.jpg" alt="A hand writes a goal on a card next to a black Daruma" width="2000" height="2000" loading="lazy"><figcaption>One goal, one card, one doll. That’s it.</figcaption></figure>
+<p>That last step was the surprise. Twelve adults, very quiet, concentrating on painting a small black dot. Then a lot of laughing at whose dot was crooked.</p>
+
+<h2>What happened on the desks</h2>
+<p>The dolls went home with people or stayed on desks. Most stayed on desks.</p>
+<figure class="full"><img src="img/04-desks.jpg" alt="Daruma with one eye painted on office desks in spring" width="2000" height="1333" loading="lazy"><figcaption>March. One eye open on every other desk.</figcaption></figure>
+<p>I’m not going to pretend a ceramic doll changed anybody’s performance. I can’t measure that and I wouldn’t believe anyone who said they could.</p>
+<p>What I can tell you is what changed in my one-to-ones. Before, “how’s your goal going?” got a blank look. Now people would glance at the doll on their desk and actually answer. Sometimes the answer was “badly”. That’s still a better conversation than a blank look.</p>
+<div class="cta"><a class="btn" href="https://darumaritual.com/?utm_source=advertorial&utm_campaign=team-ritual">See what’s in each set <span aria-hidden="true">→</span></a><p class="trust">Official Daruma Ritual store · Free tracked shipping worldwide · 30-day returns</p></div>
+
+<h2>The shelf</h2>
+<p>We made one rule in January: when you paint your second eye, your Daruma goes on the shelf by the kitchen.</p>
+<p>By December, the shelf was nearly full.</p>
+<p>Not every doll made it. A few still have one eye, and that’s fine; the ritual says you can give those a new goal, or start again next year. But walking past that shelf every morning beat any slide I’ve ever shown.</p>
+<figure class="full"><img src="img/06-shelf-team.jpg" alt="Three teammates laugh in front of the shelf of finished Daruma" width="1600" height="2000" loading="lazy"><figcaption>“That one’s mine. Took me until November.”</figcaption></figure>
+
+<h2>If you’re planning a kickoff, a retreat or a staff Christmas gift</h2>
+<div class="foryou"><div class="box"><h3>This is for you if…</h3><ul class="ticks yes"><li>You run a team, a gym, a class or a small company</li><li>You want a January ritual people actually remember</li><li>You want a gift that works for everyone without knowing them well</li><li>You like ideas that take 20 minutes and cost little per person</li></ul></div><div class="box"><h3>Skip it if…</h3><ul class="ticks no"><li>You need goals tracked in software</li><li>Your team hates anything that feels like a group activity</li><li>You want something branded with your logo</li></ul></div></div>
+<h3>The ritual, step by step</h3>
+<ol class="timeline">
+<li><b>Day 1</b>Choose one goal. Write it down and paint the first eye: the doll's own left, which is the one on your right as it faces you. Any black marker works (one isn't in the box).</li>
+<li><b>Every day after</b>The Daruma sits where you'll see it: a desk, a shelf, a nightstand. One eye open, waiting.</li>
+<li><b>Week 4</b>Look at it and ask yourself one honest question: what did I do this week toward the goal?</li>
+<li><b>The day it's done</b>Paint the second eye. Keep it as a record, or start again with a new goal.</li></ol>
+<p>Sets come with five Daruma each, so for a team of 10 you need two sets, and for 15, three. For bigger teams, there is a contact form on the site for larger orders.</p>
+
+<h2>Sets and prices</h2>
+<div class="bundle"><a class="tier" href="https://darumaritual.com/?utm_source=advertorial&utm_campaign=team-ritual"><img src="../shared/set-box.jpg" alt="" width="64" height="64"><span><span class="t">1 Premium Set</span><br><span class="s">5 Daruma + 1 chiming keychain</span></span><span class="pr"><del>$159</del><b>$79</b></span></a><a class="tier pop" href="https://darumaritual.com/?utm_source=advertorial&utm_campaign=team-ritual"><span class="flag">Most popular</span><img src="../shared/set-box.jpg" alt="" width="64" height="64"><span><span class="t">2 Premium Sets</span><br><span class="s">10 Daruma + 2 keychains + $20 gift card free</span></span><span class="pr"><del>$338</del><b>$149</b></span></a><a class="tier" href="https://darumaritual.com/?utm_source=advertorial&utm_campaign=team-ritual"><img src="../shared/set-box.jpg" alt="" width="64" height="64"><span><span class="t">3 Premium Sets</span><br><span class="s">15 Daruma + 3 keychains + $20 gift card free</span></span><span class="pr"><del>$497</del><b>$199</b></span></a></div><p class="note">Each set: 5 ceramic Daruma, matte-black magnetic box, legend &amp; ritual cards. Free tracked shipping.</p>
+<div class="cta"><a class="btn" href="https://darumaritual.com/?utm_source=advertorial&utm_campaign=team-ritual">Choose sets for your team <span aria-hidden="true">→</span></a><p class="trust">Official Daruma Ritual store · Free tracked shipping worldwide · 30-day returns</p></div>
+
+<h2>What people wrote after their sets arrived</h2>
+<p>Messages customers sent to Daruma Ritual, quoted word for word.</p>
+<figure class="letter"><blockquote><p>“These have arrived and I absolutely love them! I need to put in another order please. Will email you some numbers soon.”</p></blockquote><figcaption><span class="ini" aria-hidden="true">DB</span><span><b>D.B.</b> · Email to Daruma Ritual</span></figcaption></figure>
+<figure class="letter"><blockquote><p>“I was absolutely wowed when I received the package today. Both sets arrived completely unharmed. I am going to give them as holiday gifts. Blessed and grateful.”</p></blockquote><figcaption><span class="ini" aria-hidden="true">MF</span><span><b>M.F.</b> · Email to Daruma Ritual</span></figcaption></figure>
+<figure class="letter"><blockquote><p>“Finally I was able to perform our first ritual with my daughter and her husband. I will be purchasing more sets to give to my other children. … this was a good way to have them set goals to focus on all of the good things in their lives.”</p></blockquote><figcaption><span class="ini" aria-hidden="true">·</span><span><b>A customer</b> · Message to Daruma Ritual</span></figcaption></figure>
+
+<h2>Questions</h2>
+<div class="faq"><details><summary>What exactly is in a set?</summary><p>Five ceramic Daruma in red, white, black, yellow and blue, a matte-black magnetic gift box with a velvet tray, the legend &amp; ritual cards, and a chiming Daruma keychain.</p></details><details><summary>Is a pen or marker included?</summary><p>No. Any black marker or brush pen works for the eyes.</p></details><details><summary>Do I need to know anything about Japanese culture?</summary><p>No. The ritual card in the box explains the steps in a minute.</p></details><details><summary>How does shipping work?</summary><p>Shipping is free and tracked to every country. The delivery estimate is shown at checkout; international post is slower in December, so order early for Christmas.</p></details><details><summary>What if it's not right?</summary><p>You have 30 days after it arrives to request a return.</p></details></div>
+<p class="note">Planning a January kickoff? Order before the holidays: international post is slower in December, and the delivery estimate is shown at checkout.</p>
+
+</main>
+<footer class="foot"><p><b>Advertisement.</b> Written and paid for by Daruma Ritual, which sells the Daruma shown on this page. Names and details in the story are illustrative. Customer messages are quoted word for word with initials only. Prices in US dollars, correct as of October 2026.</p>
+<p><a href="https://darumaritual.com/policies/shipping-policy">Shipping</a> · <a href="https://darumaritual.com/policies/refund-policy">Returns</a> · © 2026 Daruma Ritual</p></footer>
+<div class="sticky"><span>5 Daruma per set · from $79</span><a class="btn" href="https://darumaritual.com/?utm_source=advertorial&utm_campaign=team-ritual">See team sets</a></div>
+</body></html>
